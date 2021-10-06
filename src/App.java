@@ -15,7 +15,7 @@ class App {
     Livro livro2 = new Livro("Homo Deus");
     livro2.titulo = "HOMO DEUS";
 
-    Lampada lamp1 = new Lampada(127, 15);
+   /* Lampada lamp1 = new Lampada(127, 15);
     System.out.println(lamp1.ligada); // false
 
     lamp1.ligada = true;
@@ -23,14 +23,14 @@ class App {
 
     System.out.println(lamp1.tensao);
     System.out.println(lamp1.potencia);
-    System.out.println(lamp1.ligada);
+    System.out.println(lamp1.ligada);*/
 
     FoneOuvido fone1 = new FoneOuvido("JVC", PosicaoOrelha.CIRCUMAURAL, false);
     // fone1.fabricante = "JVC";
     // fone1.bluetooth = false;
     // fone1.posicao = PosicaoOrelha.CIRCUMAURAL;
 
-    Livro livro3 = new Livro("Algoritmos para viver");
+   /* Livro livro3 = new Livro("Algoritmos para viver");
     System.out.println(livro3.titulo);
     System.out.println("Ar-condicionado -----------------------------");
     ArCondicionado ar1 = new ArCondicionado("Springer", 9000);
@@ -134,7 +134,7 @@ class App {
     outroAr.aumentarTemperatura();
     outroAr.aumentarTemperatura();
 
-    System.out.println(outroAr.temp);
+    System.out.println(outroAr.temp);*/
 
   }
 }
